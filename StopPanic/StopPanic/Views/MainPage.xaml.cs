@@ -32,7 +32,9 @@ namespace StopPanic.Views
                     case (byte)MenuItemType.About:
                         MenuPages.Add(id, new NavigationPage(new AboutPage()));
                         break;
-                    case (byte)MenuItemType.Geolocation
+                    case (byte)MenuItemType.Geolocation:
+                        MenuPages.Add(id, new NavigationPage(new GetGeolocation()));
+                        break;
                         
                 }
             }

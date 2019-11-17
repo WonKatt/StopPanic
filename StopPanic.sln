@@ -5,7 +5,11 @@ VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopPanic.Android", "StopPanic\StopPanic.Android\StopPanic.Android.csproj", "{24CE3C36-16B9-426D-AA0C-5961ECF8D88C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopPanic", "StopPanic\StopPanic\StopPanic.csproj", "{4CD93F05-1C47-42B7-9BA5-58CF5EE8871F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StopPanic", "StopPanic\StopPanic\StopPanic.csproj", "{4CD93F05-1C47-42B7-9BA5-58CF5EE8871F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopPanic.Web", "StopPanic.Web\StopPanic.Web.csproj", "{56D9F111-2853-40E4-8972-25A6253B6B9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopPanic.BL", "StopPanic.BL\StopPanic.BL.csproj", "{DFBECE70-0432-4B66-B002-7720A3D021B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,14 @@ Global
 		{4CD93F05-1C47-42B7-9BA5-58CF5EE8871F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CD93F05-1C47-42B7-9BA5-58CF5EE8871F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4CD93F05-1C47-42B7-9BA5-58CF5EE8871F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{56D9F111-2853-40E4-8972-25A6253B6B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D9F111-2853-40E4-8972-25A6253B6B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D9F111-2853-40E4-8972-25A6253B6B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D9F111-2853-40E4-8972-25A6253B6B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFBECE70-0432-4B66-B002-7720A3D021B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFBECE70-0432-4B66-B002-7720A3D021B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFBECE70-0432-4B66-B002-7720A3D021B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFBECE70-0432-4B66-B002-7720A3D021B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
