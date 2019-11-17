@@ -1,16 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="StopPanic.Views.MenuPage"
              Title="Menu">
     <StackLayout VerticalOptions="FillAndExpand">
+        <Image x:Name="MainMenuHeaderImage"
+               Source="{Binding Source}"
+               WidthRequest="72"
+               HeightRequest="72"
+               Aspect="Fill">
+        </Image>
         <ListView x:Name="ListViewMenu"
-                    HasUnevenRows="True">
+                  HasUnevenRows="True">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <Grid Padding="10">
-                            <Label Text="{Binding Title}" FontSize="20"/>
+                            <Label Text="{Binding Title}" FontSize="20" />
                         </Grid>
                     </ViewCell>
                 </DataTemplate>

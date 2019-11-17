@@ -26,12 +26,14 @@ namespace StopPanic.Views
             {
                 switch (id)
                 {
-                    case (int)MenuItemType.Browse:
+                    case (byte)MenuItemType.Browse:
                         MenuPages.Add(id, new NavigationPage(new ItemsPage()));
                         break;
-                    case (int)MenuItemType.About:
+                    case (byte)MenuItemType.About:
                         MenuPages.Add(id, new NavigationPage(new AboutPage()));
                         break;
+                    case (byte)MenuItemType.Geolocation
+                        
                 }
             }
 
