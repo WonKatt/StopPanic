@@ -10,11 +10,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Syncfusion.Xamarin.SfCalendar" Version="17.3.0.34" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
     <PackageReference Include="Xamarin.Forms" Version="4.3.0.991211" />  
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="Resources\alf-1126430-1280x0.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\StopPanicData\StopPanic.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\CalendarPage.xaml.cs">
+      <DependentUpon>CalendarPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

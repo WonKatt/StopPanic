@@ -1,7 +1,4 @@
-﻿using System;
-
-using StopPanic.Models;
-
+﻿using StopPanic.Models;
 namespace StopPanic.ViewModels
 {
     public class ItemDetailViewModel : BaseViewModel

@@ -19,7 +19,7 @@ namespace StopPanic.Views
             menuItems = new List<HomeMenuItem>
             {
                 new HomeMenuItem {Id = MenuItemType.Browse, Title = "Browse"},
-                new HomeMenuItem {Id = MenuItemType.About, Title = "About"},
+                new HomeMenuItem {Id = MenuItemType.Calendar, Title = "Calendar"},
                 new HomeMenuItem {Id = MenuItemType.Geolocation, Title = "Geolocation"},
             };
 

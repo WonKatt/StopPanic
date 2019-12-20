@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using StopPanic.Data;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using StopPanic.Views;
@@ -8,11 +10,16 @@ namespace StopPanic
 {
     public partial class App : Application
     {
+        static Database _database;
+
+        public static Database Database =>
+            _database ?? (_database = new Database(Path.Combine(
+                Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "database.db3")));
 
         public App()
         {
             InitializeComponent();
-
+            //Creating new instance for SfSchedule   
 
             MainPage = new MainPage();
         }

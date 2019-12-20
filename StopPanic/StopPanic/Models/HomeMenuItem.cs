@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Xamarin.Forms;
-
-namespace StopPanic.Models
+﻿namespace StopPanic.Models
 {
     public enum MenuItemType
     {
         Browse,
-        About,
-        Geolocation
+        Geolocation,
+        Calendar
     }
     public class HomeMenuItem
     {

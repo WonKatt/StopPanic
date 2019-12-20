@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using StopPanic.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -29,13 +30,12 @@ namespace StopPanic.Views
                     case (byte)MenuItemType.Browse:
                         MenuPages.Add(id, new NavigationPage(new ItemsPage()));
                         break;
-                    case (byte)MenuItemType.About:
-                        MenuPages.Add(id, new NavigationPage(new AboutPage()));
+                    case (byte)MenuItemType.Calendar:
+                        MenuPages.Add(id, new NavigationPage(new CalendarPage()));
                         break;
                     case (byte)MenuItemType.Geolocation:
                         MenuPages.Add(id, new NavigationPage(new GetGeolocation()));
                         break;
-                        
                 }
             }
 
